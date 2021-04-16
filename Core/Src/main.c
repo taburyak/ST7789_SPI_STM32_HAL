@@ -91,7 +91,7 @@ int main(void)
   MX_SPI1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  printf("UART2 is OK");
+  printf("[%8lu] Debug UART2 is OK!\r\n", HAL_GetTick());
   /* USER CODE END 2 */
 
   /* Infinite loop */
